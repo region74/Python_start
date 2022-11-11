@@ -27,6 +27,7 @@ def create_html(valutes):
             text += f'<td>{v}</td>'
         text += '</tr>'
 
+
     text += '</table>'
     return text
 
